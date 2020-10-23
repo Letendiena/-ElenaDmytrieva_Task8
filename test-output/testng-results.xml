@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Testing suite" duration-ms="57513" started-at="2020-10-23T15:46:00 EDT" finished-at="2020-10-23T15:46:57 EDT">
+    <groups>
+    </groups>
+    <test name="Registration tests" duration-ms="41874" started-at="2020-10-23T15:46:00 EDT" finished-at="2020-10-23T15:46:42 EDT">
+      <class name="ai.skillo.RegistrationTests">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:ai.skillo.RegistrationTests@64616ca2]" name="initBrowser" is-config="true" duration-ms="6302" started-at="2020-10-23T15:46:00 EDT" finished-at="2020-10-23T15:46:06 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="registrationSiteTest()[pri:1, instance:ai.skillo.RegistrationTests@64616ca2]" name="registrationSiteTest" duration-ms="16321" started-at="2020-10-23T15:46:06 EDT" finished-at="2020-10-23T15:46:23 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- registrationSiteTest -->
+        <test-method status="PASS" signature="checkExcludingNotMatchingPasswords()[pri:2, instance:ai.skillo.RegistrationTests@64616ca2]" name="checkExcludingNotMatchingPasswords" duration-ms="12249" started-at="2020-10-23T15:46:23 EDT" finished-at="2020-10-23T15:46:35 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExcludingNotMatchingPasswords -->
+        <test-method status="PASS" signature="checkExcludingDoubleEmails()[pri:3, instance:ai.skillo.RegistrationTests@64616ca2]" name="checkExcludingDoubleEmails" duration-ms="6293" started-at="2020-10-23T15:46:35 EDT" finished-at="2020-10-23T15:46:41 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkExcludingDoubleEmails -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ai.skillo.RegistrationTests@64616ca2]" name="closeBrowser" is-config="true" duration-ms="672" started-at="2020-10-23T15:46:41 EDT" finished-at="2020-10-23T15:46:42 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ai.skillo.RegistrationTests -->
+    </test> <!-- Registration tests -->
+    <test name="Login tests" duration-ms="15613" started-at="2020-10-23T15:46:42 EDT" finished-at="2020-10-23T15:46:57 EDT">
+      <class name="ai.skillo.LoginTests">
+        <test-method status="PASS" signature="initBrowser()[pri:0, instance:ai.skillo.LoginTests@6537cf78]" name="initBrowser" is-config="true" duration-ms="5171" started-at="2020-10-23T15:46:42 EDT" finished-at="2020-10-23T15:46:47 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initBrowser -->
+        <test-method status="PASS" signature="loginSiteTest()[pri:1, instance:ai.skillo.LoginTests@6537cf78]" name="loginSiteTest" duration-ms="5767" started-at="2020-10-23T15:46:47 EDT" finished-at="2020-10-23T15:46:53 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSiteTest -->
+        <test-method status="PASS" signature="logoutSiteTest()[pri:2, instance:ai.skillo.LoginTests@6537cf78]" name="logoutSiteTest" duration-ms="1808" started-at="2020-10-23T15:46:53 EDT" finished-at="2020-10-23T15:46:55 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutSiteTest -->
+        <test-method status="PASS" signature="emptyCredentialsLoginTest()[pri:3, instance:ai.skillo.LoginTests@6537cf78]" name="emptyCredentialsLoginTest" duration-ms="2195" started-at="2020-10-23T15:46:55 EDT" finished-at="2020-10-23T15:46:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- emptyCredentialsLoginTest -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:ai.skillo.LoginTests@6537cf78]" name="closeBrowser" is-config="true" duration-ms="671" started-at="2020-10-23T15:46:57 EDT" finished-at="2020-10-23T15:46:57 EDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- ai.skillo.LoginTests -->
+    </test> <!-- Login tests -->
+  </suite> <!-- Testing suite -->
+</testng-results>

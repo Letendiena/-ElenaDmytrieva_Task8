@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing suite" verbose="2" parallel="tests" thread-count="1" allow-return-values="true">
+  <test name="Registration tests">
+    <classes>
+      <class name="ai.skillo.RegistrationTests"/>
+    </classes>
+  </test>
+
+  <test name="Login tests">
+    <classes>
+      <class name="ai.skillo.LoginTests"/>
+    </classes>
+  </test>
+</suite>
